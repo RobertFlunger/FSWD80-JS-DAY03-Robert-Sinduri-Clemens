@@ -1,0 +1,244 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-style: Arial, Helvetica, sans-serif; }
+
+img {
+  object-fit: cover;
+  object-position: center; }
+
+#header {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-around;
+  align-content: center;
+  height: 10em; }
+  #header #head {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 1em;
+    background-color: #84CEB5;
+    color: white; }
+    #header #head h1 {
+      width: 33%; }
+    #header #head .Cart {
+      width: 25%;
+      display: flex;
+      flex-wrap: wrap; }
+      #header #head .Cart #imgCart {
+        width: 15%; }
+      #header #head .Cart .Action {
+        width: 75%;
+        display: flex;
+        flex-wrap: wrap; }
+        #header #head .Cart .Action #View {
+          width: 50%;
+          font-size: 1em; }
+        #header #head .Cart .Action #Empty {
+          width: 50%;
+          font-size: 1em; }
+        #header #head .Cart .Action #Checkout {
+          width: 100%;
+          font-size: 1em; }
+    #header #head .Account {
+      width: 33%; }
+      #header #head .Account #Login {
+        width: 50%; }
+      #header #head .Account #Create {
+        width: 50%; }
+  #header #navbar {
+    width: 100%;
+    padding: 1em;
+    background-color: black; }
+    #header #navbar nav ul {
+      display: flex;
+      justify-content: space-around; }
+      #header #navbar nav ul li {
+        list-style-type: none;
+        display: inline; }
+        #header #navbar nav ul li a {
+          font-color: white;
+          text-decoration: none; }
+
+body {
+  width: 100%;
+  background-color: #84CEB5; }
+  body .items {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+    height: 100em; }
+    body .items #divimg1 {
+      height: 12em;
+      display: flex;
+      flex-wrap: wrap;
+      margin: 1em;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #DEF2EF;
+      color: #4D76CC; }
+      body .items #divimg1 #img1 {
+        height: 10em;
+        margin: 1em;
+        object-fit: cover;
+        object-postion: center; }
+      body .items #divimg1 #p1 {
+        font-size: 1.5em;
+        padding: 1 em;
+        margin: 0 auto; }
+      body .items #divimg1 #h61 {
+        font-size: 2.5em;
+        padding: 1em; }
+      body .items #divimg1 input {
+        font-size: 1em;
+        background-color: #84CEB5;
+        color: #4D76CC; }
+    body .items #divimg2 {
+      height: 12em;
+      display: flex;
+      margin: 1em;
+      justify-content: space-around;
+      align-items: center;
+      background-color: #DEF2EF;
+      color: #4D76CC; }
+      body .items #divimg2 #img2 {
+        height: 10em;
+        margin: 1em;
+        object-fit: cover;
+        object-postion: center; }
+      body .items #divimg2 #p2 {
+        font-size: 1.5em;
+        margin: 0 auto; }
+      body .items #divimg2 #h62 {
+        font-size: 2.5em;
+        padding: 1em; }
+      body .items #divimg2 input {
+        font-size: 1em;
+        margin: 0 auto;
+        background-color: #84CEB5;
+        color: #4D76CC; }
+    body .items #divimg3 {
+      height: 12em;
+      display: flex;
+      margin: 1em;
+      justify-content: space-around;
+      align-items: center;
+      background-color: #DEF2EF;
+      color: #4D76CC; }
+      body .items #divimg3 #img3 {
+        height: 10em;
+        margin: 1em;
+        object-fit: cover;
+        object-postion: center; }
+      body .items #divimg3 #p3 {
+        font-size: 1.5em;
+        margin: 0 auto; }
+      body .items #divimg3 #h63 {
+        font-size: 2.5em;
+        padding: 1em; }
+      body .items #divimg3 input {
+        font-size: 1em;
+        margin: 0 auto;
+        background-color: #84CEB5;
+        color: #4D76CC; }
+    body .items #divimg4 {
+      height: 12em;
+      display: flex;
+      margin: 1em;
+      justify-content: space-around;
+      align-items: center;
+      background-color: #DEF2EF;
+      color: #4D76CC; }
+      body .items #divimg4 #img4 {
+        height: 10em;
+        margin: 1em;
+        object-fit: cover;
+        object-postion: center; }
+      body .items #divimg4 #p4 {
+        font-size: 1.5em;
+        margin: 0 auto; }
+      body .items #divimg4 #h64 {
+        font-size: 2.5em;
+        padding: 1em; }
+      body .items #divimg4 input {
+        font-size: 1em;
+        margin: 0 auto;
+        background-color: #84CEB5;
+        color: #4D76CC; }
+    body .items #divimg5 {
+      height: 12em;
+      display: flex;
+      margin: 1em;
+      justify-content: space-around;
+      align-items: center;
+      background-color: #DEF2EF;
+      color: #4D76CC; }
+      body .items #divimg5 #img5 {
+        height: 10em;
+        margin: 1em;
+        object-fit: cover;
+        object-postion: center; }
+      body .items #divimg5 #p5 {
+        font-size: 1.5em;
+        margin: 0 auto; }
+      body .items #divimg5 #h65 {
+        font-size: 2.5em;
+        padding: 1em; }
+      body .items #divimg5 input {
+        font-size: 1em;
+        margin: 0 auto;
+        background-color: #84CEB5;
+        color: #4D76CC; }
+    body .items #divimg6 {
+      height: 12em;
+      display: flex;
+      margin: 1em;
+      justify-content: space-around;
+      align-items: center;
+      background-color: #DEF2EF;
+      color: #4D76CC; }
+      body .items #divimg6 #img6 {
+        height: 10em;
+        margin: 1em;
+        object-fit: cover;
+        object-postion: center; }
+      body .items #divimg6 #p6 {
+        font-size: 1.5em;
+        margin: 0 auto; }
+      body .items #divimg6 #h66 {
+        font-size: 2.5em;
+        padding: 1em; }
+      body .items #divimg6 input {
+        font-size: 1em;
+        margin: 0 auto;
+        background-color: #84CEB5;
+        color: #4D76CC; }
+    body .items #divimg7 {
+      height: 12em;
+      display: flex;
+      margin: 1em;
+      justify-content: space-around;
+      align-items: center;
+      background-color: #DEF2EF;
+      color: #4D76CC; }
+      body .items #divimg7 #img7 {
+        height: 10em;
+        margin: 1em;
+        object-fit: cover;
+        object-postion: center; }
+      body .items #divimg7 #p7 {
+        font-size: 1.5em;
+        margin: 0 auto; }
+      body .items #divimg7 #h67 {
+        font-size: 2.5em;
+        padding: 1em; }
+      body .items #divimg7 input {
+        font-size: 1em;
+        margin: 0 auto;
+        background-color: #84CEB5;
+        color: #4D76CC; }
+
+/*# sourceMappingURL=stylesheet.css.map */
