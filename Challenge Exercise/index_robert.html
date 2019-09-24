@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Challenge Exercise JavaScript Day 03 - Shopping Cart</title>
+	<link rel="stylesheet" type="text/css" href="style_robert.css">
+</head>
+<body>
+
+<div class="container">
+
+<header id="header" class="">
+	<center><h1>My Shopping Cart - Shopping Cart</h1></center>
+
+</header><!-- /header -->
+
+	<div id="navbar">
+		<ul>
+			<li><a href="" title="">Shopping Cart</a></li>
+			<li><a href="" title="">Register Account</a></li>
+			<li><a href="" title="">Contact</a></li>
+		</ul>
+	</div>
+
+<h2>Our Products</h2>
+
+<div id="products" class="container">
+	<div class="product">
+		<div class="thumbnail">
+			<img src="game1.png" alt="">
+		</div>
+		<div class="description">
+			<p>The Surge 2 <br>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quod!</p>
+			<p class="price-tag">49.99€</p>
+			<input type="button" onclick="addToCart()">
+		</div>
+	</div>
+
+		<div class="product">
+		<div class="thumbnail">
+			<img src="game2.png" alt="">
+		</div>
+		<a href="">
+		<div class="description">
+			<p>Depraved<br>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quod!</p>
+			<p class="price-tag">19.99€</p>
+		</div>
+	</a>
+	</div>
+
+		<div class="product">
+			<div class="thumbnail">
+				<img src="game3.png" alt="">
+			</div>
+			<a href="">
+				<div class="description">
+					<p>Ni No Kuni<br>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quod!</p>
+					<p class="price-tag">59.99€</p>
+				</div>
+			</a>
+		</div>
+
+		<div class="product">
+		<div class="thumbnail">
+			<img src="game4.png" alt="">
+		</div>
+		<a href="">
+		<div class="description">
+			<p>Hot Lava<br>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quod!</p>
+			<p class="price-tag">49.99€</p>
+		</div>
+	</a>
+	</div>
+
+</div>	
+
+<div id="shopping-cart">
+	<table id="cart-content">
+		<thead>
+			<tr>
+				<th>Image</th>
+				<th>Name</th>
+				<th>Price</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td id="img1"></td>
+				<td id="name1"></td>
+				<td id="price1"></td>
+			</tr>	
+		</tbody>
+</table>
+
+</div>
+
+</body>
+</html>
